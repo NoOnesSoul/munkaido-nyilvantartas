@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Használat</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <h2>Hogyan kell használni?</h2>
+        <p>A program legenerálja a dokumentumot, autómatikusan jelöli a napokat, kiszámolja az órákat, stb.</p>
+        <p>Amit neked kell csinálni:</p>
+        <ol>
+            <li>
+                A fenti mezőbe írd be az évet és hónapot, vagy kattints a beviteli mező jobb oldalán található naptár ikonra és válaszd ki ott.
+            </li><br />
+            <li>
+                Ha hiba nélkül megjelent a dokumentum, jobb kattints és menj rá a <b>Nyomtatás...</b> menüpontra, vagy használd a <b>Ctrl+P</b> billentyűkombinációt.
+            </li><br />
+            <li>
+                A <b>lap elrendezés</b> legyen <b>Álló</b>ra állítva.
+            </li><br />
+            <li>
+                Ha a nyomtatás előnézetén nem láthatóak a szín jelölések, menj a <b>További beállítások</b>ra, majd pipáld ki a <b>Háttérgrafika</b> beállítást.
+            </li><br />
+            <li>
+                Ha minden kész, kattints a kiemelt <b>Nyomtatás</b> gombra.<br/>Ez megkezd egy PDF letöltést, ott <b>add meg a fájl nevét</b>, ez a rendszer által kezelhető formátumba lementi a dokumentumot.<br />Innentől a megszokott módon ki tudod nyomtatni a fájlt.
+            </li>
+        </ol>
+        <hr />
+        <h2>Ismert hibák és okozói</h2>
+        <h3>Színezetlen és keret nélküli táblázat cellák</h3>
+        <p>Ez a hiba akkor történik, ha elfogy a havi elérhető lekérdezés.</p>
+        <p>Ez a program egy regisztrált API-t használ, ami minden hónapra 100 lekérdezést biztosít.<br />
+        Ezt az API-t a napok típusának megállapítására használja a program és a típustól függ a cellák megjelenése.<br />
+        Ha elfogynak az elérhető lekérdezések, a program nem kap használható adatokat, így nem tudja definiálni a napok típusát.</p>
+</body>
+</html>
