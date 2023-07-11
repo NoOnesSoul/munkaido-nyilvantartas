@@ -42,7 +42,7 @@ $monthnames = array(
             Szervezeti egység:<b>.............................</b>
         </div>
         <div class="explanations" style="border: 0px;">
-            <?php include('explanations.php');?>
+            <?php include('explanations.html');?>
         </div>
         <div class="title">
             MUNKAIDŐ NYILVÁNTARTÁS
